@@ -1,0 +1,63 @@
+{
+  "name": "hidden-solution-rpc",
+  "displayName": "Hidden Solution RPC",
+  "description": "Discord Rich Presence private solution for VS Code",
+  "version": "1.0.0",
+  "publisher": "yourname",
+
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/private-solution-rpc"
+  },
+
+  "categories": [
+    "Other"
+  ],
+
+  "activationEvents": [
+    "*"
+  ],
+
+  "main": "./out/extension.js",
+
+  "contributes": {
+    "commands": [
+      {
+        "command": "hiddenrpc.enable",
+        "title": "Enable Hidden Solution RPC"
+      },
+      {
+        "command": "hiddenrpc.disable",
+        "title": "Disable Hidden Solution RPC"
+      }
+    ]
+  },
+
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+
+  "keywords": [
+    "discord",
+    "rpc",
+    "richpresence",
+    "vscode"
+  ],
+
+  "devDependencies": {
+    "@types/discord-rpc": "^4.0.10",
+    "@types/node": "^20.19.41",
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.0.0"
+  },
+
+  "dependencies": {
+    "discord-rpc": "^4.0.1"
+  }
+}
