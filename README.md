@@ -47,7 +47,7 @@ const clientId = 'YOUR_CLIENT_ID_HERE'; // ← paste here
 ### 2. Clone the project
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/hidden-solution-rpc.git
+git clone https://github.com/YOUR_USERNAME/hidden-solution-rpc.git](https://github.com/sixsdev/Discord-Rich-Presence-hidden-solution-rpc.git
 cd hidden-solution-rpc
 ```
 
